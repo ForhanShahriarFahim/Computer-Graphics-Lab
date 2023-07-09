@@ -40,8 +40,8 @@ int main()
     int gd=DETECT,gm;
     initgraph(&gd,&gm,NULL);
     k.koch(it,150,20,20,280);
-    k.koch(it,280,280,150,20);
-    k.koch(it,20,280,280,280);
+    k.koch(it, 20, 280, 280, 280);
+    k.koch(it,280,280,150,20);    
     getch();
     closegraph();
     return 0;

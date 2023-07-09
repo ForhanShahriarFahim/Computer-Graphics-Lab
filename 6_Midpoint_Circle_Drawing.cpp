@@ -25,8 +25,6 @@ void midpointCircle(int xc, int yc, int radius)
         putpixel(xc - p.first, yc + p.second, WHITE);
         putpixel(xc - p.first, yc - p.second, WHITE);
         putpixel(xc + p.first, yc - p.second, WHITE);
-
-
     }
 }
 
@@ -41,3 +39,4 @@ int main()
     getch();
     return 0;
 }
+// Input: 200 200 80
